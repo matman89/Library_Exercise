@@ -1,10 +1,9 @@
 *
 {
-    border: solid firebrick 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.master, html, body
+.master, body
 {
     height: 100%;
     margin: 0;
@@ -14,10 +13,11 @@
 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space;
     flex-direction: column;
     gap: 20px;
-    
+    background-color: beige;
+    padding: 22px;
 }
 
 .text_header
@@ -27,7 +27,11 @@
 
 .header_button
 {
-    background-color: aquamarine;
+    display: flex;
+    background-color: darkorange;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 15px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
 }
